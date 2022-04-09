@@ -1,25 +1,32 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from './../components/Header';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Zhiming Lim</title>
+        <title>Zhiming Lim | Singapore</title>
         <meta name="description" content="Welcome to my website." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/z-logo.jpeg" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Zhiming Lim
-        </h1>
+      {/*Header*/}
+      <Header />
 
-        <p className={styles.description}>
-          <code className={styles.code}>Software Engineer</code>
+      <div className='font-sans hover:font-mono flex justify-evenly 
+      text-center text-6xl
+      p-6'>
+        <p>
+          Zhiming Lim
         </p>
-      </main>
+      </div>
+
+      <div className='font-mono flex justify-evenly text-center'>
+        <p>
+          Software Engineer
+        </p>
+      </div>
+
     </div>
   )
 }

@@ -1,25 +1,9 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.page-title {
-  display: inline-block;
-  position: relative;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
-}
+@layer base {
+  body {
+      @apply bg-[#0A0A0C] text-gray-300
+  }
+};
