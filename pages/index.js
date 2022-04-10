@@ -19,9 +19,9 @@ export default function Home() {
           <Image 
             className='shadow-lg rounded-full max-w-full h-auto 
             align-middle border-none'
-            src="/max-01.jpg"
-            width={853}
-            height={1280}
+            src="/max-01-square.jpg"
+            width={852}
+            height={852}
             alt="Picture of Author"
           />
         </div>
