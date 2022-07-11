@@ -8,11 +8,17 @@ export default function Home() {
       <Head>
         <title>Zhiming Lim | Singapore</title>
         <meta name="description" content="Welcome to my website." />
-        <link rel="icon" href="/z-logo.jpeg" />
+        <link rel="icon" href="/zl-logo-0.svg" />
       </Head>
 
       {/*Header*/}
       <Header />
+
+      <div className='flex text-center justify-center my-16'>
+        <p>
+          Say hi.
+        </p>
+      </div>
 
       <div className='flex flex-wrap justify-center'>
         <div className='w-6/12 sm:w-4/12 px-4'>
