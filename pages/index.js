@@ -14,9 +14,12 @@ export default function Home() {
       {/*Header*/}
       <Header />
 
-      <div className='flex text-center justify-center my-16'>
-        <p>
-          Say hi.
+      <div className='font-sans flex flex-col text-center justify-center my-16'>
+        <p className='font-light text-[54px] tracking-wider leading-none py-2'>
+          ZHIMING LIM
+        </p>
+        <p className='font-light text-[16px] tracking-widest leading-none'>
+          Software Engineer
         </p>
       </div>
 
@@ -31,19 +34,6 @@ export default function Home() {
             alt="Picture of Author"
           />
         </div>
-      </div>
-
-      <div className='flex text-center justify-center text-6xl p-6'>
-        <p className=''>
-          Zhiming Lim
-        </p>
-      </div>
-      
-
-      <div className='font-mono flex text-center justify-evenly mb-20'>
-        <p className='hover:animate-pulse'>
-          Software Engineer
-        </p>
       </div>
 
     </div>
