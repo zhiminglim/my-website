@@ -1,9 +1,12 @@
+/* Don't need to specify /public in the url */
+@import url(/fonts/stylesheet.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-      @apply bg-[#FFF] text-black
+      @apply bg-[#F6FAFF] text-black
   }
 };
