@@ -13,7 +13,7 @@ function Intro() {
           </p>
 
           <p className="font-light text-[24px]">
-            I'm Zhiming,
+            I&apos;m Zhiming,
             <br />
             a guy from Singapore who
             <br />
