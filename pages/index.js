@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './../components/Header';
 import Intro from '../components/Intro';
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -16,10 +17,8 @@ export default function Home() {
 
         <Header />
         <Intro />
+        <About />
 
-        <div className='flex items-center px-[15%] py-[10%]'>
-          <div className='flex-grow h-1 bg-black'></div>
-        </div>
       </div>
 
     </div>
