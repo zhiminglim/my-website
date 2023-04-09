@@ -1,13 +1,13 @@
 export default function About(props) {
   return (
     // Section
-    <div className="flex flex-col h-screen px-[15%] py-[10%] w-full">
+    <div className="flex flex-col h-screen px-[15%] py-[10%] w-fit">
       {/* Title */}
-      <div className="mb-12">
-        <p className="items-center font-extralight text-[54px] tracking-[0.5em]">
+      <div className="flex flex-col mb-12">
+        <p className="flex justify-center font-extralight text-[54px] tracking-[0.5em] -mr-4">
           ABOUT
         </p>
-        <div className='flex-grow h-1 bg-[#30475E]'></div>
+        <div className='flex h-0.5 w-1/6 mx-auto bg-[#30475E]'></div>
       </div>
 
       {/* Section Body */}

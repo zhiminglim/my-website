@@ -8,11 +8,11 @@ function Intro() {
       {/* Text Intro */}
       <div className="flex flex-col w-1/2">
         <div className="mr-[15%]">
-          <p className="font-bold text-[54px] tracking-wider leading-none pb-[50px]">
+          <p className="font-bold text-[54px] text-midnight-blue tracking-wider leading-none pb-[50px]">
             Hey there.
           </p>
 
-          <p className="font-light text-[24px]">
+          <p className="font-light text-[24px] text-space-blue tracking-wide leading-7">
             I&apos;m Zhiming,
             <br />
             a guy from Singapore who
@@ -28,10 +28,10 @@ function Intro() {
           <Image 
             className='shadow-lg rounded-full max-w-full h-auto 
             align-middle border-none'
-            src="/max-01-square.jpg"
+            src="/max-02-square.jpg"
             layout="responsive"
-            height="90%"
-            width="90%"
+            height="70%"
+            width="70%"
             alt="Picture of Author"
           />
         </div>

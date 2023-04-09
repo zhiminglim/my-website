@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'midnight-blue': '#30475E',
+        'space-blue': '#121212'
+      },
       fontFamily: {
         sans: ['Gilroy', 'sans-serif']
       }
